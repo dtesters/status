@@ -3,29 +3,19 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>RGB Animated Background</title>
-    <style>
-        body {
-            margin: 0;
-            padding: 0;
-            overflow: hidden;
-            animation: backgroundAnimation 5s ease infinite;
-        }
-
-        @keyframes backgroundAnimation {
-            0% {
-                background-color: #3498db;
-            }
-            50% {
-                background-color: lightgreen;
-            }
-            100% {
-                background-color: #3498db;
-            }
-        }
-    </style>
+    <title>Status Website</title>
+    <link rel="stylesheet" href="styles.css">
 </head>
 <body>
-    <!-- Your content goes here -->
+    <header>
+        <h1>Live Status Example</h1>
+    </header>
+    <main>
+        <section class="status">
+            <h2>Status Updates</h2>
+            <div id="status-list"></div>
+        </section>
+    </main>
+    <script src="script.js"></script>
 </body>
 </html>
